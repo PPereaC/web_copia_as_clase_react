@@ -32,7 +32,7 @@ function TripleOpinionElement(props) {
             <div className="row">
                 <div className={sizeClass}>
                     <div className="row">
-                        <div class="col-12 opinion-title">
+                        <div className="col-12 opinion-title">
                             <a href="#">
                                 <h3>OPINIÓN</h3>
                                 <hr />
@@ -40,48 +40,48 @@ function TripleOpinionElement(props) {
                         </div>
                     </div>
                     <div className="row">
-                        <div class="col-12 col-md-4 opinion-element-container">
-                            <a href="#" class="opinion-element-title">
+                        <div className="col-12 col-md-4 opinion-element-container">
+                            <a href="#" className="opinion-element-title">
                                 Ingenuo Huijsen, pletórico Militao
                             </a>
-                            <div class="opinion-image-container">
-                                <div class="opinion-element-text">
-                                    <span class="author-pre">
+                            <div className="opinion-image-container">
+                                <div className="opinion-element-text">
+                                    <span className="author-pre">
                                         POR
                                     </span>
-                                    <span class="author">
+                                    <span className="author">
                                         Santiago Segurola
                                     </span>
-                                    <span class="comments">
+                                    <span className="comments">
 
                                     </span>
                                 </div>
-                                <div class="opinion-image">
-                                    <div class="opinion-image-div"
+                                <div className="opinion-image">
+                                    <div className="opinion-image-div"
                                         style={{backgroundImage: `url("https://img.asmedia.epimg.net/resizer/v2/https%3A%2F%2Fas01.epimg.net%2Fimg%2Fcomunes%2Ffotos%2Fautores%2Fpng%2Fsantiago_segurola_basanez.png?auth=6ba3dc282172a4dc9530ed38ab2331baee0cafd112d6f987896b638a40a55466&width=200&height=84&smart=true")`}}>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-4 opinion-element-container">
-                            <a href="#" class="opinion-element-title">
+                        <div className="col-12 col-md-4 opinion-element-container">
+                            <a href="#" className="opinion-element-title">
                                 Ingenuo Huijsen, pletórico Militao
                             </a>
-                            <div class="opinion-image-container">
-                                <div class="opinion-element-text">
-                                    <span class="author-pre">
+                            <div className="opinion-image-container">
+                                <div className="opinion-element-text">
+                                    <span className="author-pre">
                                         POR
                                     </span>
-                                    <span class="author">
+                                    <span className="author">
                                         Santiago Segurola
                                     </span>
-                                    <span class="comments">
+                                    <span className="comments">
 
                                     </span>
                                 </div>
-                                <div class="opinion-image">
-                                    <div class="opinion-image-div"
+                                <div className="opinion-image">
+                                    <div className="opinion-image-div"
                                         style={{backgroundImage: `url("https://img.asmedia.epimg.net/resizer/v2/https%3A%2F%2Fas01.epimg.net%2Fimg%2Fcomunes%2Ffotos%2Fautores%2Fpng%2Fsantiago_segurola_basanez.png?auth=6ba3dc282172a4dc9530ed38ab2331baee0cafd112d6f987896b638a40a55466&width=200&height=84&smart=true")`}}>
                                     </div>
                                 </div>
@@ -90,24 +90,24 @@ function TripleOpinionElement(props) {
 
 
 
-                        <div class="col-12 col-md-4 opinion-element-container">
-                            <a href="#" class="opinion-element-title">
+                        <div className="col-12 col-md-4 opinion-element-container">
+                            <a href="#" className="opinion-element-title">
                                 Ingenuo Huijsen, pletórico Militao
                             </a>
-                            <div class="opinion-image-container">
-                                <div class="opinion-element-text">
-                                    <span class="author-pre">
+                            <div className="opinion-image-container">
+                                <div className="opinion-element-text">
+                                    <span className="author-pre">
                                         POR
                                     </span>
-                                    <span class="author">
+                                    <span className="author">
                                         Santiago Segurola
                                     </span>
-                                    <span class="comments">
+                                    <span className="comments">
 
                                     </span>
                                 </div>
-                                <div class="opinion-image">
-                                    <div class="opinion-image-div"
+                                <div className="opinion-image">
+                                    <div className="opinion-image-div"
                                         style={{backgroundImage: `url("https://img.asmedia.epimg.net/resizer/v2/https%3A%2F%2Fas01.epimg.net%2Fimg%2Fcomunes%2Ffotos%2Fautores%2Fpng%2Fsantiago_segurola_basanez.png?auth=6ba3dc282172a4dc9530ed38ab2331baee0cafd112d6f987896b638a40a55466&width=200&height=84&smart=true")`}}>
                                     </div>
                                 </div>

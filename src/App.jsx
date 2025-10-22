@@ -5,6 +5,7 @@ import NewsCard from './Components/NewsCard/NewsCard';
 import SingleOpinionCard from './Components/SingleOpinionCard/SingleOpinionCard';
 import SideNewsCard from './Components/SideNewsCard/SideNewsCard';
 import TripleOpinionElement from './Components/TripleOpinionElement/TripleOpinionElement';
+import SideNewsCardTile from './Components/SideNewCardTile/SideNewCardTile';
 
 
 function App() {
@@ -100,7 +101,7 @@ function App() {
                         <div className="row">
                             <NewsCard auxClass="col-4"></NewsCard>
                             <NewsCard auxClass="col-4"></NewsCard>
-                            <div class="col-12 col-md-4">
+                            <div className="col-12 col-md-4">
                                 <SideNewsCard auxClass="side-news-container"></SideNewsCard>
                                 <SideNewsCard auxClass="side-news-container"></SideNewsCard>
                             </div>
@@ -112,6 +113,7 @@ function App() {
                             <NewsCard auxClass="col-3"></NewsCard>
                         </div>
                         <TripleOpinionElement sizeClass="col-12" auxClass="container"></TripleOpinionElement>
+
                         <div className="col-12 col-md-8">
                             <div className="row">
                                 <NewsCard auxClass="col-6"></NewsCard>
@@ -122,6 +124,30 @@ function App() {
                                 <NewsCard auxClass="col-6"></NewsCard>
                             </div>
                         </div>
+
+                        <div className='row'>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                        </div>
+
+                        <div className='row'>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                            <SideNewsCardTile auxClass="col-4"></SideNewsCardTile>
+                        </div>
+
+                        <div className="col-12 col-md-8">
+                            <div className="row">
+                                <NewsCard auxClass="col-6"></NewsCard>
+                                <NewsCard auxClass="col-6"></NewsCard>
+                            </div>
+                            <div className="row">
+                                <NewsCard auxClass="col-6"></NewsCard>
+                                <NewsCard auxClass="col-6"></NewsCard>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 

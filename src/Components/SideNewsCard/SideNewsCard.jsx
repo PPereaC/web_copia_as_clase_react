@@ -35,7 +35,7 @@ function SideNewsCard(props) {
                         </a>
                     </div>
                 </div>
-                <div class="col-7">
+                <div className="col-7">
                     <div className="card-category-container">
                         <a href="#">
                             BALÓN DE ORO

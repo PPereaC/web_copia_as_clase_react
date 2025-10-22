@@ -49,6 +49,19 @@
     line-height: 50px;
 }
 
+/* small variant for play button */
+.card-news-container .card-image-container div .play-button.small{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.card-news-container .card-image-container div .play-button.small i{
+    font-size: 40px;
+    margin: auto;
+    line-height: 22px;
+}
+
 .card-news-container .card-text-container a{
     transition: color .2s ease-in;
     text-decoration: none;
@@ -141,6 +154,19 @@
     font-size: 75px;
     margin: auto auto auto 15px;
     line-height: 50px;
+}
+
+/* small variant for alternate card */
+.card-news-container-alt .card-image-container div .play-button.small{
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+}
+
+.card-news-container-alt .card-image-container div .play-button.small i{
+    font-size: 22px;
+    margin: auto;
+    line-height: 22px;
 }
 
 .card-news-container-alt .card-text-container a{

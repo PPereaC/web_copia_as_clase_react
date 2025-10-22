@@ -84,6 +84,71 @@ function App() {
                             </div>
 
                         </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="video-of-day-container">
+                                <a href="" class="video-of-day-title">
+                                    <span class="rc-title">EL VÍDEO DEL DÍA</span>
+                                </a>
+                            </div>
+
+                            <NewsCard isVideo="true" videoSize="small"></NewsCard>
+
+                            <div class="video-of-day-container">
+                                <a href="" class="video-of-day-title">
+                                    <span class="rc-title">ÚLTIMAS NOTICIAS</span>
+                                </a>
+                            </div>
+
+                            <div class="latest-news-list">
+                                <div class="latest-news-container">
+                                    <div class="latest-news-header">
+                                        <span class="latest-news-time">16:24</span>
+                                        <span class="latest-news-event">MUNDIAL 2030</span>
+                                    </div>
+                                    <div class="latest-news-title">
+                                        <a href="#">Rafael Louzán: "Se está hablando de si el Mundial...</a>
+                                    </div>
+                                </div>
+                                <div class="latest-news-container">
+                                    <div class="latest-news-header">
+                                        <span class="latest-news-time">16:22</span>
+                                        <span class="latest-news-event">BIWENGER</span>
+                                    </div>
+                                    <div class="latest-news-title">
+                                        <a href="#">¡12 entradas en juego para partidos de la Eur...</a>
+                                    </div>
+                                </div>
+                                <div class="latest-news-container">
+                                    <div class="latest-news-header">
+                                        <span class="latest-news-time">16:21</span>
+                                        <span class="latest-news-event">INGLATERRA</span>
+                                    </div>
+                                    <div class="latest-news-title">
+                                        <a href="#">Leoni cambia el paso con Konaté</a>
+                                    </div>
+                                </div>
+                                <div class="latest-news-container">
+                                    <div class="latest-news-header">
+                                        <span class="latest-news-time">16:17</span>
+                                        <span class="latest-news-event">MIRANDÉS</span>
+                                    </div>
+                                    <div class="latest-news-title">
+                                        <a href="#">La lesión de Hugo Novoa se queda en una so...</a>
+                                    </div>
+                                </div>
+                                <div class="latest-news-container">
+                                    <div class="latest-news-header">
+                                        <span class="latest-news-time">16:10</span>
+                                        <span class="latest-news-event">CÁDIZ CF</span>
+                                    </div>
+                                    <div class="latest-news-title">
+                                        <a href="#">Salvi Sánchez: "Al Cádiz siempre volvería con ...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="col-8 col-md-8">
                             <SingleOpinionCard auxClass="opinion-element"></SingleOpinionCard>
                         </div>

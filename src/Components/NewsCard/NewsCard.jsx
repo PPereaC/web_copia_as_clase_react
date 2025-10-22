@@ -22,6 +22,8 @@ function NewsCard(props) {
     */
     let auxClass = props.auxClass ? props.auxClass : "col-12";
     let isVideo = props.isVideo != undefined && props.isVideo != null ? props.isVideo : false;
+    let playIconSize = props.playIconSize != undefined && props.playIconSize != null ? props.playIconSize : "bi-play-fill";
+    let videoSize = props.videoSize === 'small' ? 'small' : 'normal';
 
 
     auxClass += " card-news-container"
@@ -32,14 +34,11 @@ function NewsCard(props) {
             <div className="card-image-container">
                 <a href="#">
                     <div style={{backgroundImage: `url("https://img.asmedia.epimg.net/resizer/v2/J7T6HTF6WFCVHKJTVAE7LXJEYI.png?auth=76ab975e8b56b2ee73a2f3230cca1a6baa37f1352ade52af16e370edc7cf5991&width=240&height=135&smart=true")`}}>
-                        {isVideo ? 
-                            (
-                                <div className="play-button">
-                                    <i className="bi bi-play-fill"></i>
-                                </div>
-                            ) 
-                            : ""
-                        }
+                        {isVideo ? (
+                            <div className={"play-button" + (videoSize === 'small' ? ' small' : '')}>
+                                <i className={"bi " + playIconSize}></i>
+                            </div>
+                        ) : ""}
                     </div>
                 </a>
             </div>

@@ -1,0 +1,13 @@
+.opinion-element {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.opinion-element-header {
+    flex: 1;
+}

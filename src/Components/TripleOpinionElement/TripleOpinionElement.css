@@ -1,0 +1,31 @@
+.container{
+    max-width: 996px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.opinion-container{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+.opinion-container .opinion-title a{
+    text-decoration: none;
+}
+
+.opinion-container .opinion-title hr{
+    color: #434343;
+}
+
+.opinion-container h3{
+    text-transform: uppercase;
+    color: #434343;
+    font-size: 21px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+.opinion-container .opinion-element-container{
+    border-bottom: 1px solid #e0e0e0;
+}

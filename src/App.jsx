@@ -4,6 +4,7 @@ import './App.css'
 import NewsCard from './Components/NewsCard/NewsCard';
 import SingleOpinionCard from './Components/SingleOpinionCard/SingleOpinionCard';
 import SideNewsCard from './Components/SideNewsCard/SideNewsCard';
+import TripleOpinionElement from './Components/TripleOpinionElement/TripleOpinionElement';
 
 
 function App() {
@@ -109,6 +110,17 @@ function App() {
                             <NewsCard auxClass="col-3"></NewsCard>
                             <NewsCard auxClass="col-3"></NewsCard>
                             <NewsCard auxClass="col-3"></NewsCard>
+                        </div>
+                        <TripleOpinionElement sizeClass="col-12" auxClass="container"></TripleOpinionElement>
+                        <div className="col-12 col-md-8">
+                            <div className="row">
+                                <NewsCard auxClass="col-6"></NewsCard>
+                                <NewsCard auxClass="col-6"></NewsCard>
+                            </div>
+                            <div className="row">
+                                <NewsCard auxClass="col-6"></NewsCard>
+                                <NewsCard auxClass="col-6"></NewsCard>
+                            </div>
                         </div>
                     </div>
                 </div>

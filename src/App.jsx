@@ -3,7 +3,7 @@ import './App.css'
 
 import NewsCard from './Components/NewsCard/NewsCard';
 import SingleOpinionCard from './Components/SingleOpinionCard/SingleOpinionCard';
-
+import SideNewsCard from './Components/SideNewsCard/SideNewsCard';
 
 
 function App() {
@@ -100,8 +100,8 @@ function App() {
                             <NewsCard auxClass="col-4"></NewsCard>
                             <NewsCard auxClass="col-4"></NewsCard>
                             <div class="col-12 col-md-4">
-                                <SideNewsCard auxClass="col-4"></SideNewsCard>
-                                <SideNewsCard auxClass="col-4"></SideNewsCard>
+                                <SideNewsCard auxClass="side-news-container"></SideNewsCard>
+                                <SideNewsCard auxClass="side-news-container"></SideNewsCard>
                             </div>
                         </div>
                     </div>

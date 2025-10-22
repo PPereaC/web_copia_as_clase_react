@@ -104,6 +104,12 @@ function App() {
                                 <SideNewsCard auxClass="side-news-container"></SideNewsCard>
                             </div>
                         </div>
+                        <div className="row">
+                            <NewsCard auxClass="col-3"></NewsCard>
+                            <NewsCard auxClass="col-3"></NewsCard>
+                            <NewsCard auxClass="col-3"></NewsCard>
+                            <NewsCard auxClass="col-3"></NewsCard>
+                        </div>
                     </div>
                 </div>
 
